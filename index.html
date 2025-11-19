@@ -54,7 +54,7 @@ header p{font-size:1.1rem;color:#555;}
 .progress-container{width:100%;background:#ccc;border-radius:25px;overflow:hidden;margin:20px 0;height:10px;}
 .progress-bar{height:100%;width:0%;background:linear-gradient(90deg,#ff6584,#6c63ff,#00c6ff,#00ff94);transition:width .45s ease;}
 
-.slide{display:none;border-radius:20px;padding:25px;margin-bottom:28px;background:rgba(255,255,255,0.9);box-shadow:0 15px 40px rgba(0,0,0,0.2);position:relative;overflow:hidden;opacity:0;transform:translateY(25px) scale(0.98);}
+.slide{display:none;border-radius:20px;padding:25px;margin-bottom:28px;background:rgba(255,255,255,0.95);box-shadow:0 15px 40px rgba(0,0,0,0.2);position:relative;overflow:hidden;opacity:0;transform:translateY(25px) scale(0.98);}
 .slide.active{display:block;animation:slideIn .7s cubic-bezier(.2,.9,.2,1) forwards;}
 
 @keyframes slideIn{to{opacity:1;transform:translateY(0) scale(1);}}
@@ -93,9 +93,9 @@ header p{font-size:1.1rem;color:#555;}
 .slide ul li{margin:6px 0;text-align:left;}
 
 .slide img.parallax {
-    width:60%; /* الحجم بالنسبة للعرض المتاح في السلايد */
-    max-width: 400px; /* الحد الأقصى للحجم */
-    height: auto; /* يحافظ على نسبة الطول للعرض */
+    width:80%; 
+    max-width:450px; 
+    height: auto; 
     transition: transform .3s ease;
 }
 
@@ -104,7 +104,7 @@ header p{font-size:1.1rem;color:#555;}
 
 footer{margin-top:36px;font-size:.95rem;color:#555;position:relative;height:80px;}
 footer img{position:absolute;bottom:10px;right:10px;width:120px;max-width:15%;height:auto;filter:drop-shadow(0 0 12px #6c63ff55);}
-@media(max-width:768px){header h1{font-size:2.2rem}.slide img.parallax{width:180px}.tab{font-size:.95rem}}
+@media(max-width:768px){header h1{font-size:2.2rem}.slide img.parallax{width:100%}.tab{font-size:.95rem}}
 </style>
 </head>
 
@@ -138,43 +138,28 @@ footer img{position:absolute;bottom:10px;right:10px;width:120px;max-width:15%;he
 <h2>Our Team</h2>
 <p>Our Human Rights project was created by:
 
-Hana Walid Rihan (Leader)
-Shahd Ahmed Hallawa
-Salma Ashraf Ahmed
-Mohamed Nabil Sorour
-Salah Zaky Salah
-Mahmoud Taha Elawady
+Hana Walid Rihan (Leader)<br>
+Shahd Ahmed Hallawa<br>
+Salma Ashraf Ahmed<br>
+Mohamed Nabil Sorour<br>
+Salah Zaky Salah<br>
+Mahmoud Taha Elawady<br>
 ... 4 more members</p>
 </div>
 
 <div class="slide">
 <h2>Understanding Human Rights</h2>
 <img class="parallax" src="Children's rights.jpeg" alt="Human Rights" />
-<p>Human rights are the basic freedoms and rights every person is
-entitled to, such as life, liberty, equality, freedom of thought,
-and expression. They are universal and apply to everyone, ensuring
-dignity and respect. Human rights cover opportunities like
-education, work, travel, choice of partner, and leisure. The
-Universal Declaration of Human Rights defines these principles, but
-challenges remain as many people still face injustice and
-inequality.</p>
+<p>Human rights are the basic freedoms and rights every person is entitled to, such as life, liberty, equality, freedom of thought, and expression. They are universal and apply to everyone, ensuring dignity and respect. Human rights cover opportunities like education, work, travel, choice of partner, and leisure. The Universal Declaration of Human Rights defines these principles, but challenges remain as many people still face injustice and inequality.</p>
 </div>
 
 <div class="slide">
 <h2>Legacy of Liberty <i class="fas fa-book"></i></h2>
 <img class="parallax" src="Cyrus Cylinder.jpg" alt="Cyrus Cylinder" />
-<p>In 539 B.C., the armies of Cyrus the Great, the first king of
-ancient Persia, conquered the city of Babylon. But it was his next
-actions that marked a major advance for Man...</p>
-<p>The Cyrus Cylinder records King Cyrus the Great’s reforms,
-including freeing slaves, granting freedom of religion, and
-establishing racial equality. This clay artifact is considered the
-first charter of human rights, and its principles parallel the
-first four articles of the Universal Declaration of Human Rights.</p>
+<p>In 539 B.C., the armies of Cyrus the Great, the first king of ancient Persia, conquered the city of Babylon. But it was his next actions that marked a major advance for Man...</p>
+<p>The Cyrus Cylinder records King Cyrus the Great’s reforms, including freeing slaves, granting freedom of religion, and establishing racial equality. This clay artifact is considered the first charter of human rights, and its principles parallel the first four articles of the Universal Declaration of Human Rights.</p>
 <img class="parallax" src="Magna Carta.jpg" alt="Magna Carta" />
-<p>The Magna Carta, signed in 1215 by King John of England, is one of
-the most important legal documents in the development of modern
-democracy. It established key rights including:</p>
+<p>The Magna Carta, signed in 1215 by King John of England, is one of the most important legal documents in the development of modern democracy. It established key rights including:</p>
 <ul>
 <li>Freedom of the Church from government interference</li>
 <li>The right of free citizens to own and inherit property</li>
@@ -183,99 +168,70 @@ democracy. It established key rights including:</p>
 <li>Principles of due process and equality before the law</li>
 <li>Rules against bribery and official misconduct</li>
 </ul>
-<p>The Magna Carta marked a turning point in the struggle for freedom
-and human rights.</p>
+<p>The Magna Carta marked a turning point in the struggle for freedom and human rights.</p>
 </div>
 
 <div class="slide">
 <h2>Universal Human Rights – Key Principles</h2>
 <img class="parallax" src="United Nations Human Rights Day.jpeg" alt="Universal Human Rights – Key Principles" />
-<p>Adopted by the UN on December 10, 1948.
-All humans are born free and equal in dignity and rights.
-Equality & non‑discrimination: Rights apply to everyone, regardless
-of race, sex, religion, or status.
-Life, liberty & security: Every person has the right to live safely
-and freely.
-Protection from abuse: No slavery, torture, or cruel treatment.
-Legal rights: Everyone is recognized before the law and entitled to
-fair protection.
-Fair trial: Presumption of innocence; right to a public and
-impartial hearing.
-Awareness & education: Rights should be taught and promoted
-worldwide.</p>
+<p>Adopted by the UN on December 10, 1948.<br>
+All humans are born free and equal in dignity and rights.<br>
+Equality & non‑discrimination: Rights apply to everyone, regardless of race, sex, religion, or status.<br>
+Life, liberty & security: Every person has the right to live safely and freely.<br>
+Protection from abuse: No slavery, torture, or cruel treatment.<br>
+Legal rights: Everyone is recognized before the law and entitled to fair protection.<br>
+Fair trial: Presumption of innocence; right to a public and impartial hearing.<br>
+Awareness & education: Rights should be taught and promoted worldwide.</p>
 </div>
 
 <div class="slide">
 <h2>Daily Life Rights</h2>
 <img class="parallax" src="Human Rights and Democracy_.jpeg" alt="Daily Life Rights" />
-<p>Freedom & nationality: Right to move freely, leave/return to
-countries, and have a nationality.
-Property: Right to own property individually or collectively,
-protected from arbitrary loss.
-Expression & opinion: Freedom to hold opinions and share
-information freely.
-Assembly & association: Right to peaceful gatherings and voluntary
-membership in groups.
-Participation in government: Right to vote, run for office, and
-access public service equally.
-Work & fair conditions: Right to work, fair pay, safe conditions,
-social protection, and union membership.
-Rest & leisure: Right to reasonable working hours, paid holidays,
-and leisure.
-Education: Free, compulsory basic education and access to higher
-education, fostering full personal development.
-Culture & science: Right to enjoy arts, participate in cultural
-life, and benefit from scientific progress.
-Responsibilities: Exercise rights responsibly, respecting others,
-public order, and UN principles.</p>
+<p>Freedom & nationality: Right to move freely, leave/return to countries, and have a nationality.<br>
+Property: Right to own property individually or collectively, protected from arbitrary loss.<br>
+Expression & opinion: Freedom to hold opinions and share information freely.<br>
+Assembly & association: Right to peaceful gatherings and voluntary membership in groups.<br>
+Participation in government: Right to vote, run for office, and access public service equally.<br>
+Work & fair conditions: Right to work, fair pay, safe conditions, social protection, and union membership.<br>
+Rest & leisure: Right to reasonable working hours, paid holidays, and leisure.<br>
+Education: Free, compulsory basic education and access to higher education, fostering full personal development.<br>
+Culture & science: Right to enjoy arts, participate in cultural life, and benefit from scientific progress.<br>
+Responsibilities: Exercise rights responsibly, respecting others, public order, and UN principles.</p>
 </div>
 
 <div class="slide">
 <h2>Human Rights Violations</h2>
 <img class="parallax" src="human violation.jpeg" alt="Violations" />
-<p>Widespread abuses:
-Torture or mistreatment in 80+ countries.
-Freedom of expression restricted in 77+ countries.
-Unfair trials in 54+ countries.
-Marginalized groups: Women, children, and dissenters often
-discriminated against or silenced.
-Major examples:
-Article 3 – Right to Life: Thousands of civilians killed in
-conflicts.
-Article 5 – No Torture: Prisoners held without trial, subjected to
-torture (e.g., Guantánamo Bay).
-Conclusion: Despite progress, human rights violations remain a
-global challenge.</p>
+<p>Widespread abuses: Torture or mistreatment in 80+ countries. Freedom of expression restricted in 77+ countries. Unfair trials in 54+ countries.<br>
+Marginalized groups: Women, children, and dissenters often discriminated against or silenced.<br>
+Major examples:<br>
+Article 3 – Right to Life: Thousands of civilians killed in conflicts.<br>
+Article 5 – No Torture: Prisoners held without trial, subjected to torture (e.g., Guantánamo Bay).<br>
+Conclusion: Despite progress, human rights violations remain a global challenge.</p>
 </div>
 
 <div class="slide">
 <h2>Anti‑Corruption: Types and Key Violations</h2>
 <img class="parallax" src="Human Rights Day✊.jpeg" alt="Anti‑Corruption" />
-<p>Definition: Corruption is the misuse of public office to achieve
-personal or group interests.
-Types of Corruption:
-- Administrative: Abuse of power by executive employees.
-- Political: Power abuse by political elites.
-- Social: Related to flaws in social values.
-- Moral: Deviations in personal behavior violating ethical or
-religious standards.
-- Cultural: When a group strays from cultural norms, undermining
-identity and values.
-- Financial: Violations of financial rules and laws for personal
-gain.
-
-Key Financial Violations by Employees:
-Breaking financial laws and regulations.
-Violating rules of tenders, auctions, and procurement.
-Negligence causing loss of state funds.
-Intentional acts leading to misuse or loss of public money.
-Delays in providing contracts, accounts, or documents to auditing
-authorities.</p>
+<p>Definition: Corruption is the misuse of public office to achieve personal or group interests.<br>
+Types of Corruption:<br>
+Administrative: Abuse of power by executive employees.<br>
+Political: Power abuse by political elites.<br>
+Social: Related to flaws in social values.<br>
+Moral: Deviations in personal behavior violating ethical or religious standards.<br>
+Cultural: When a group strays from cultural norms, undermining identity and values.<br>
+Financial: Violations of financial rules and laws for personal gain.<br><br>
+Key Financial Violations by Employees:<br>
+Breaking financial laws and regulations.<br>
+Violating rules of tenders, auctions, and procurement.<br>
+Negligence causing loss of state funds.<br>
+Intentional acts leading to misuse or loss of public money.<br>
+Delays in providing contracts, accounts, or documents to auditing authorities.</p>
 </div>
 
 <div class="slide">
 <h2>Human Rights Challenges Today</h2>
-<img class="parallax" src="Do You Know The Kinds Of Human Rights You Have_.jpeg" alt="Challenges Today" />
+<img class="parallax" src="Human Rights Day.jpeg" alt="Challenges Today" />
 <ul>
 <li>Discrimination based on race, gender, religion, or social status</li>
 <li>Armed conflicts causing civilian casualties</li>
@@ -288,9 +244,7 @@ authorities.</p>
 <div class="slide">
 <h2>Promoting and Protecting Human Rights</h2>
 <img class="parallax" src="Social Justice Protest Poster Vintage Inspired Raised Fist  Activism Wall Art Download.jpeg" alt="Promoting Rights" />
-<p>
-Every individual and organization has a role in safeguarding human rights. Key actions include:
-</p>
+<p>Every individual and organization has a role in safeguarding human rights. Key actions include:</p>
 <ul>
 <li>Education & Awareness: Teach human rights principles in schools and communities.</li>
 <li>Strengthening Laws & Justice Systems: Ensure fair legal processes and enforcement of rights.</li>
@@ -298,9 +252,7 @@ Every individual and organization has a role in safeguarding human rights. Key a
 <li>Support NGOs & International Organizations: Collaborate with entities that monitor and protect rights.</li>
 <li>Media & Advocacy: Use media channels to raise awareness, report violations, and engage citizens.</li>
 </ul>
-<p>
-This slide highlights practical steps to actively promote and protect human rights in daily life and across societies.
-</p>
+<p>This slide highlights practical steps to actively promote and protect human rights in daily life and across societies.</p>
 </div>
 
 <div class="nav-buttons">
@@ -349,4 +301,6 @@ showSlide(0);
 </script>
 </body>
 </html>
+
+
 
